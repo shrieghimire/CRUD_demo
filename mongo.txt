@@ -1,0 +1,26 @@
+show dbs --shows available databases
+use dbname -- use a particular database
+
+show collections -- shows collections in a database
+db.createCollection("collection name") --create a collection
+
+--show contents in a collection
+db.OICcollection.find()
+
+use mydatabase
+> db.mycollection.drop() -- drops a collection
+
+use mydatabase
+db.mycollection.renameCollection("newcollection") -- rename a collection
+
+
+
+
+
+
+
+
+
+
+
+
